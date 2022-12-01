@@ -16,15 +16,11 @@
     "fix": "gts fix",
     "test": "echo 'Please run tests in each sample directory.' && exit 1",
     "generate-ci": "node .github/workflows/generate.js"
+    "start": "node your-script.js"
   },
   "devDependencies": {
     "gts": "^3.1.0",
     "nunjucks": "^3.2.3",
     "typescript": "^4.6.4"
-  }
-
-
-  "scripts": {
-      "start": "node your-script.js"
   }
 }
